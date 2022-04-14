@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .nav-active-desktop {
+        @apply cursor-pointer rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white;
+    }
+
+    .nav-inactive-desktop {
+        @apply cursor-pointer rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white;
+    }
+
+    .nav-active-mobile {
+        @apply cursor-pointer rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-gray-300;
+    }
+
+    .nav-inactive-mobile {
+        @apply cursor-pointer block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white;
+    }
+
+    .nav-icon-svg {
+        @apply h-5 w-5 inline text-gray-400 float-left mr-1;
+    }
+}
