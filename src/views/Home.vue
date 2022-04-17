@@ -1,3 +1,3 @@
 <template>
-  Olá mundo ~ Inicio
+  Home
 </template>

@@ -1,3 +1,3 @@
 <template>
-  Olá mundo ~ Projetos
+  Projects
 </template>
