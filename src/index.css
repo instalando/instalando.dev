@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .menu div:first-child {
+    @apply rotate-45 translate-y-1.5;
+  }
+
+  .menu div:last-child {
+    @apply -rotate-45 -translate-y-1;
+  }
+}
+
 @layer base {
     .nav-active-desktop {
         @apply cursor-pointer rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white;
@@ -12,7 +22,7 @@
     }
 
     .nav-active-mobile {
-        @apply cursor-pointer rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-gray-300;
+        @apply cursor-pointer block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white;
     }
 
     .nav-inactive-mobile {
