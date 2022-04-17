@@ -9,6 +9,7 @@
     "lint:script": "eslint --ext .ts,vue --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@heroicons/vue": "^1.0.6",
     "vue": "^3.2.25",
     "vue-router": "^4.0.14"
   },
