@@ -80,6 +80,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@heroicons/vue@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "@heroicons/vue@npm:1.0.6"
+  peerDependencies:
+    vue: ">= 3"
+  checksum: 63cf6ad94e271e5f8c47a2ee27e14d16aac8989f8450048853fea89bff545dae42db8ba3cb28dd08cef752fe32c88a418e976aae9ecd5a698973d56f5e87cb3c
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.9.2":
   version: 0.9.5
   resolution: "@humanwhocodes/config-array@npm:0.9.5"
@@ -1888,6 +1897,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "instalando.dev@workspace:."
   dependencies:
+    "@heroicons/vue": ^1.0.6
     "@typescript-eslint/eslint-plugin": ^5.19.0
     "@typescript-eslint/parser": ^5.19.0
     "@vitejs/plugin-vue": ^2.3.1
