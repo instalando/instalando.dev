@@ -12,14 +12,14 @@ type NavigationItem = {
 
 const navigationItems: NavigationItem[] = [
   {
-    name: 'About Me',
+    name: 'Sobre mim',
     route: {
       name: 'about-me'
     },
     icon: IdentificationIcon
   },
   {
-    name: 'Projects',
+    name: 'Projetos',
     route: {
       name: 'projects'
     },

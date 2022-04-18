@@ -3,9 +3,7 @@
     class="grid grid-cols-1 gaps-1 md:grid-cols-12 mx-auto"
     style="max-width: 1344px"
   >
-    <div
-      class="md:hidden lg:hidden"
-    >
+    <div class="md:hidden lg:hidden">
       <div class="relative overflow-auto rounded-xl p-8">
         <div
           class="dark:highlight-white/5 relative mx-auto flex max-w-sm items-center gap-6 overflow-visible rounded-xl bg-white shadow-lg ring-1 ring-black/5 dark:bg-slate-800"
@@ -47,9 +45,7 @@
       <div class="pointer-events-none absolute inset-0 rounded-xl border border-black/5 dark:border-white/5" />
     </div>
 
-    <div
-      class="hidden md:block md:col-span-6 lg:col-span-4"
-    >
+    <div class="hidden md:block md:col-span-6 lg:col-span-4">
       <div class="mx-4 my-2 max-w-md overflow-hidden rounded-xl bg-white shadow-md">
         <div class="md:shrink-0">
           <img
@@ -99,16 +95,35 @@
     <div class="md:col-span-6 lg:col-span-8 m-4">
       <div class="w-full p-8 rounded-xl bg-white shadow-md text-gray-600">
         <div class="text-lg font-semibold uppercase border-b-2">
-          About me:
+          Sobre mim:
         </div>
 
         <div class="mt-2 text-slate-500">
           <p class="text-center mb-4 bg-gray-800 text-gray-400 rounded-md p-2">
-            talented and lazy, I think that's how I would describe myself
+            talentoso e preguiçoso, assim me descreveria.
           </p>
-          
-          <p>
-            I wrote my first line of code when I was 9 years old, since then I was almost always self-taught, not knowing if being a programmer was what I really wanted for my life. in 2016 I finally decided that I would be a programmer at all costs. My first projects weren't pretty, they were a disaster. Using Laravel 5 (even the front was using Blade HTML), I managed to launch my first project in 2017 and it lasted well until 2019 (at the time I didn't even know there was Git and Github) which is still online today on Heroku servers https://japongo.herokuapp.com/
+
+          <p class="mt-3">
+            Escrevi minha primeira linha de código com 9 anos de idade,
+            desde então segui autodidata quase sempre sem saber se ser programador era o que realmente eu queria para a
+            minha vida e em 2016 finalmente decidi que iria ser programador a todo custo.
+          </p>
+
+          <p class="mt-3">
+            Meus primeiros projetos não foram nada bonitos, foram um desastre para falar a verdade, comecei
+            criando páginas que imitavam o jogo Habbo em 2011/2012, incrivelmente eu me divertia bastante
+            desenvolvendo essas páginas utilizando apenas HTML e CSS.
+          </p>
+
+          <p class="mt-3">
+            No tempo que eu brincava com o jogo Habbo e suas versões piratas eu pouco a pouco comecei a me envolver com
+            PHP devidamente as comuns "CMS" desse jogo que existiam gratuitamente na internet e isto me fez criar um
+            grande carinho pelo PHP.
+          </p>
+
+          <p class="mt-3">
+            Nos anos seguintes eu comecei a brincar em criar páginas semelhantes ao estilo do Tibia e Poketibia, só que
+            desta vez utilizava PHP para fazer a lógica de Login, criação de personagens e sistema de "Premium Account".
           </p>
         </div>
       </div>

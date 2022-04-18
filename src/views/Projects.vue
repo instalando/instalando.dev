@@ -12,14 +12,14 @@ const projects: ProjectItem[] = [
     name: 'Manabou Video Player',
     image: 'https://user-images.githubusercontent.com/50197635/162561203-837cdef2-a503-4470-947c-7ae075da041d.png',
     technologies: ['Vue 2', 'Vuetify', 'Electron'],
-    description: 'An application still under development with the aim, in particular, of speeding up foreign language studies for Brazilians (especially Japanese).',
+    description: 'Manabou Video Player é um aplicativo ainda em desenvolvimento com o objetivo em especial de agilizar os estudos de idiomas estrangeiros (Especialmente Japonês).',
     link: 'https://github.com/instalando/manabou-video-player'
   },
   {
     name: 'Go Translator',
     image: 'https://user-images.githubusercontent.com/50197635/163773458-48a96b84-040d-4b22-956b-f47a9e95db64.png',
     technologies: ['Go', 'ChromeDP'],
-    description: 'A simple Go project made to get translations from Google Translate.',
+    description: 'Um Simples Projeto em Go feito para fazer traduções usando Google Tradutor',
     link: 'https://github.com/instalando/go-translator'
   }
 ]
