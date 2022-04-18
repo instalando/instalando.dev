@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-12">
+  <div class="grid grid-cols-1 md:grid-cols-12 max-w-screen-xl">
     <div class="md:hidden lg:hidden">
       <div class="relative overflow-auto rounded-xl p-8">
         <div
@@ -101,7 +101,7 @@
           </p>
           
           <p>
-            I wrote my first line of code when I was 9 years old, since then I've been self-taught almost always without knowing if being a programmer was what I really wanted for my life. in 2016 I finally decided that I was going to be a programmer at all costs. My first projects weren't pretty, they were a disaster.
+            I wrote my first line of code when I was 9 years old, since then I was almost always self-taught, not knowing if being a programmer was what I really wanted for my life. in 2016 I finally decided that I would be a programmer at all costs. My first projects weren't pretty, they were a disaster. Using Laravel 5 (even the front was using Blade HTML), I managed to launch my first project in 2017 and it lasted well until 2019 (at the time I didn't even know there was Git and Github) which is still online today on Heroku servers https://japongo.herokuapp.com/
           </p>
         </div>
       </div>
