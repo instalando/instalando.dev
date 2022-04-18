@@ -26,7 +26,10 @@ const projects: ProjectItem[] = [
 </script>
 
 <template>
-  <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-2 cursor-pointer max-w-screen-xl">
+  <div
+    class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-2 cursor-pointer"
+    style="max-width: 1344px"
+  >
     <div
       v-for="item in projects"
       :key="item.name"
