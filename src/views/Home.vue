@@ -142,7 +142,7 @@ const skills = {
 
         <div class="mt-2 text-slate-500">
           <p class="mt-3">
-            Ola! Me chamo Vitor, mas aqui na internet as pessoas me conhecem por Instalando.
+            Olá! Me chamo Vitor, mas aqui na internet as pessoas me conhecem por Instalando.
           </p>
 
           <p class="mt-3">
