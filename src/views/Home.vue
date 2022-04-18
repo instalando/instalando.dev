@@ -1,6 +1,11 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-12 max-w-screen-xl">
-    <div class="md:hidden lg:hidden">
+  <div
+    class="grid grid-cols-1 gaps-1 md:grid-cols-12"
+    style="max-width: 1344px"
+  >
+    <div
+      class="md:hidden lg:hidden"
+    >
       <div class="relative overflow-auto rounded-xl p-8">
         <div
           class="dark:highlight-white/5 relative mx-auto flex max-w-sm items-center gap-6 overflow-visible rounded-xl bg-white shadow-lg ring-1 ring-black/5 dark:bg-slate-800"
@@ -42,7 +47,9 @@
       <div class="pointer-events-none absolute inset-0 rounded-xl border border-black/5 dark:border-white/5" />
     </div>
 
-    <div class="hidden md:block md:col-span-6 lg:col-span-4">
+    <div
+      class="hidden md:block md:col-span-6 lg:col-span-4"
+    >
       <div class="mx-4 my-2 max-w-md overflow-hidden rounded-xl bg-white shadow-md">
         <div class="md:shrink-0">
           <img
