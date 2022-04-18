@@ -89,8 +89,22 @@
       </div>
     </div>
 
-    <div class="md:col-span-6 lg:col-span-8">
-      <!-- WIP -->
+    <div class="md:col-span-6 lg:col-span-8 m-4">
+      <div class="w-full p-8 rounded-xl bg-white shadow-md text-gray-600">
+        <div class="text-lg font-semibold uppercase border-b-2">
+          About me:
+        </div>
+
+        <div class="mt-2 text-slate-500">
+          <p class="text-center mb-4 bg-gray-800 text-gray-400 rounded-md p-2">
+            talented and lazy, I think that's how I would describe myself
+          </p>
+          
+          <p>
+            I wrote my first line of code when I was 9 years old, since then I've been self-taught almost always without knowing if being a programmer was what I really wanted for my life. in 2016 I finally decided that I was going to be a programmer at all costs. My first projects weren't pretty, they were a disaster.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
