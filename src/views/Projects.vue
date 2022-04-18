@@ -42,7 +42,7 @@ const projects: ProjectItem[] = [
           <img
             class="w-full h-52 object-cover"
             :src="item.image"
-            alt="Man looking at item at a store"
+            :alt="item.description"
           >
           <div class="p-8">
             <!-- Header -->
