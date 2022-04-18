@@ -1,3 +1,22 @@
+<script setup lang="ts">
+
+const skills = {
+  frontend: [
+    'https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white',
+    'https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white',
+    'https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E',
+    'https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white'
+  ],
+  backend: [
+    //
+  ],
+  devops: [
+    //
+  ]
+}
+
+</script>
+
 <template>
   <div
     class="grid grid-cols-1 gaps-1 md:grid-cols-12 mx-auto"
@@ -99,33 +118,52 @@
         </div>
 
         <div class="mt-2 text-slate-500">
-          <p class="text-center mb-4 bg-gray-800 text-gray-400 rounded-md p-2">
-            talentoso e preguiçoso, assim me descreveria.
+          <p class="mt-3">
+            Ola! Me chamo Vitor, mas aqui na internet as pessoas me conhecem por Instalando.
           </p>
 
           <p class="mt-3">
-            Escrevi minha primeira linha de código com 9 anos de idade,
-            desde então segui autodidata quase sempre sem saber se ser programador era o que realmente eu queria para a
-            minha vida e em 2016 finalmente decidi que iria ser programador a todo custo.
-          </p>
-
-          <p class="mt-3">
-            Meus primeiros projetos não foram nada bonitos, foram um desastre para falar a verdade, comecei
-            criando páginas que imitavam o jogo Habbo em 2011/2012, incrivelmente eu me divertia bastante
-            desenvolvendo essas páginas utilizando apenas HTML e CSS.
-          </p>
-
-          <p class="mt-3">
-            No tempo que eu brincava com o jogo Habbo e suas versões piratas eu pouco a pouco comecei a me envolver com
-            PHP devidamente as comuns "CMS" desse jogo que existiam gratuitamente na internet e isto me fez criar um
-            grande carinho pelo PHP.
-          </p>
-
-          <p class="mt-3">
-            Nos anos seguintes eu comecei a brincar em criar páginas semelhantes ao estilo do Tibia e Poketibia, só que
-            desta vez utilizava PHP para fazer a lógica de Login, criação de personagens e sistema de "Premium Account".
+            Atualmente moro no Rio Grande do Sul, Brazil. E meu trabalho atual é consertar bugs.
+            No meu tempo livre, costumo desenvolver projetos de código aberto, ao qual você pode acessar facilmente na aba de navegação acima =D
           </p>
         </div>
+
+        <div class="text-lg mt-4 font-semibold uppercase border-b-2">
+          Linguagens e ferramentas
+        </div>
+
+        <p class="text-center mt-2 bg-gray-800 text-gray-400 rounded-md p-2">
+          Front End
+        </p>
+
+        <img
+          v-for="skill in skills.frontend"
+          :key="skill"
+          class="inline-block px-1 py-2"
+          :src="skill"
+        >
+
+        <p class="text-center mt-2 bg-gray-800 text-gray-400 rounded-md p-2">
+          Back End
+        </p>
+
+        <img
+          v-for="skill in skills.backend"
+          :key="skill"
+          class="inline-block px-1 py-2"
+          :src="skill"
+        >
+
+        <p class="text-center mt-2 bg-gray-800 text-gray-400 rounded-md p-2">
+          Dev Ops
+        </p>
+
+        <img
+          v-for="skill in skills.devops"
+          :key="skill"
+          class="inline-block px-1 py-2"
+          :src="skill"
+        >
       </div>
     </div>
   </div>
