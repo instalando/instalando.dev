@@ -1,10 +1,6 @@
 <template>
   <div class="grid grid-cols-1 md:grid-cols-12">
-    <div class="md:hidden">
-      <div
-        style="background-position: 10px 10px;"
-        class="bg-grid-slate-100 dark:bg-grid-slate-700/25 absolute inset-0 [mask-image:linear-gradient(0deg,#fff,rgba(255,255,255,0.6))] dark:[mask-image:linear-gradient(0deg,rgba(255,255,255,0.1),rgba(255,255,255,0.5))]"
-      />
+    <div class="md:hidden lg:hidden">
       <div class="relative overflow-auto rounded-xl p-8">
         <div class="dark:highlight-white/5 relative mx-auto flex max-w-sm items-center gap-6 overflow-visible rounded-xl bg-white shadow-lg ring-1 ring-black/5 dark:bg-slate-800">
           <img
