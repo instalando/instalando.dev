@@ -1,6 +1,6 @@
 <template>
   <div
-    class="grid grid-cols-1 gaps-1 md:grid-cols-12"
+    class="grid grid-cols-1 gaps-1 md:grid-cols-12 mx-auto"
     style="max-width: 1344px"
   >
     <div

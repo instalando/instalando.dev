@@ -71,7 +71,7 @@ const toggleMenu = () => displayMenu.value = !displayMenu.value
         </div>
 
 
-        <div class="relative flex sm:h-16 lg:h-16 items-center justify-between">
+        <div class="relative flex sm:h-16 lg:h-16 items-center justify-between mx-auto">
           <!-- Desktop Menu -->
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div class="hidden sm:ml-6 sm:block">
